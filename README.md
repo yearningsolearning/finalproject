@@ -113,7 +113,9 @@ BEI TOPPER'S CLUB
     
 **Admin Portal**
   **Admin Credentials**:
-    Admin 1:
+  
+    Admin 1
+    
     Email:<agrima email hala>
     password:<password>
 
@@ -129,7 +131,9 @@ BEI TOPPER'S CLUB
 **Admin Features**:
 
   Add Subjects: Admins can add new subjects by entering the subject name and the semester it belongs to.
+  
   View Subjects: Admins can view a list of all subjects in the database.
+  
   
 **Potential Issues**:
   1. Database Connectivity:  correct database credentials and verify network access. Making sure that PostgreSQL allows connections from your application.
