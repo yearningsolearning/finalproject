@@ -18,17 +18,23 @@ BEI TOPPER'S CLUB
 
 **Technologies Used:**
   Flask: Web framework for Python.
+  
   psycopg2: PostgreSQL database adapter for Python.
+  
   HTML/CSS: For creating the web pages.
+  
   PostgreSQL: Database for storing user, semester, and subject information.
 
 **Prerequisites:**
   Before you begin, ensure you have the following installed on your machine:
   
-  Python 3.x
-  Flask
-  psycopg2
-  PostgreSQL
+  -Python 3.x 
+  
+  -Flask
+  
+  -psycopg2
+  
+  -PostgreSQL
 
 
 **Setup**:
@@ -108,17 +114,24 @@ BEI TOPPER'S CLUB
 **Admin Portal**
   **Admin Credentials**:
     The following are the predefined admin credentials:
+    
     Admin 1:
+    
     Email: agrimaregmi2004@gmail.com
     Password: Agrima11
+    
     Admin 2:
+    
     Email: pratistha.sapkota123@gmail.com
     Password: Pratistha21
+    
     Admin 3:
+    
     Email: sanskriti.khatiwada@gmail.com
     Password: Sanskriti37
   
 **Admin Features**:
+
   Add Subjects: Admins can add new subjects by entering the subject name and the semester it belongs to.
   View Subjects: Admins can view a list of all subjects in the database.
   
