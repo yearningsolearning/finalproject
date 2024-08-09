@@ -114,20 +114,18 @@ BEI TOPPER'S CLUB
 **Admin Portal**
   **Admin Credentials**:
     Admin 1:
-    
-    Email: agrimaregmi2004@gmail.com
-    Password: Agrima11
-    
+    Email:<agrima email hala>
+    password:<password>
+
     Admin 2:
-    
     Email: pratistha.sapkota123@gmail.com
     Password: Pratistha21
-    
+
     Admin 3:
+    Email:sanskriti.khatiwada@gmail.com
+    password: sanskriti137
+
     
-    Email: sanskriti.khatiwada@gmail.com
-    Password: Sanskriti37
-      
 **Admin Features**:
 
   Add Subjects: Admins can add new subjects by entering the subject name and the semester it belongs to.
