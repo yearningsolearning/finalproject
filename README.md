@@ -1,9 +1,11 @@
 **BEI TOPPER'S CLUB**
 
 **Overview:**
+
   BEI TOPPER'S CLUB is a Flask-based web application designed to manage user accounts and subjects associated with various semesters. The application allows users 
   to register, log in, and view subject details, while admins can add and manage subjects. The project uses PostgreSQL for database management. It also includes an admin
   portal where admins can manage subjects and other related data.
+
 
 **Features:**
   - User Registration: Users can sign up with their username, email, password, and semester details.
