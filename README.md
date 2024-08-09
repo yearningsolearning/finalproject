@@ -113,8 +113,6 @@ BEI TOPPER'S CLUB
     
 **Admin Portal**
   **Admin Credentials**:
-    The following are the predefined admin credentials:
-    
     Admin 1:
     
     Email: agrimaregmi2004@gmail.com
@@ -129,7 +127,7 @@ BEI TOPPER'S CLUB
     
     Email: sanskriti.khatiwada@gmail.com
     Password: Sanskriti37
-  
+      
 **Admin Features**:
 
   Add Subjects: Admins can add new subjects by entering the subject name and the semester it belongs to.
