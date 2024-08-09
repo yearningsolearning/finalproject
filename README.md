@@ -24,6 +24,7 @@ BEI TOPPER'S CLUB
 
 **Prerequisites:**
   Before you begin, ensure you have the following installed on your machine:
+  
   Python 3.x
   Flask
   psycopg2
@@ -44,17 +45,29 @@ BEI TOPPER'S CLUB
     pip install -r requirements.txt
     
 **3. Database Configuration:**
+
     The project uses a **hosted PostgreSQL database**.
+    
     - **Database Name**: final_dbms
+    
     - **User**: final_dbms_user
+    
     - **Password**: kiyFsG55ZbMbw59HJi49ere5c8bOQBHf
+    
     - **Host**: dpg-cqq3a02j1k6c73da6nbg-a.oregon-postgres.render.com
+    
     - **Port**: 5432
+    
   Ensure that your PostgreSQL database is properly set up with the correct credentials.
+  
 **4.Run Migrations:**
+
      Make sure your PostgreSQL database schema is up-to-date by running any necessary migrations.
+     
 **5.Run the Application:**
+
     python app.py
+    
 **The application will be available at http://127.0.0.1:5000/.**
 
 
