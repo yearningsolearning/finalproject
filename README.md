@@ -32,13 +32,17 @@ BEI TOPPER'S CLUB
 
 **Setup**:
 **1. Clone the Repository:**
+
     git clone https://github.com/yourusername/your-repo.git
     cd your-repo
+    
 **2. Install Dependencies:**
+
     Create a virtual environment and install required packages:
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     pip install -r requirements.txt
+    
 **3. Database Configuration:**
     The project uses a **hosted PostgreSQL database**.
     - **Database Name**: final_dbms
