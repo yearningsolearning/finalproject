@@ -142,6 +142,23 @@
   Add Subjects: Admins can add new subjects by entering the subject name and the semester it belongs to.
   
   View Subjects: Admins can view a list of all subjects in the database.
+
+
+**Database Schema:**
+
+  The application uses a PostgreSQL database with the following schema:
+  
+  **Tables**
+  
+  **user:** Stores user information (user_id, username, email, password).
+  
+  **sem:** Stores semester information (semester_id, name).
+  
+  **user_sem:** Junction table between users and semesters (user_id, semester_id).
+  
+  **subjects:**  Stores subjects (subject_id, name, semester_id).
+  
+  **subject_descriptions:** Stores detailed descriptions of subjects (subject_id, average_marks, study_days, resources).
   
   
 **Potential Issues**:
@@ -155,24 +172,19 @@
 
  **contribution of each member**:
  
-   1.AGRIMA: FRONT END OF subject_description.html, admin_subjects.html,BACKEND for connecting adminsign.html and subject_description.html.
-   
-   2.SANSKRITI:FRONT END OF home.html,sign.html,loginhello.html, BACKEND for connecting home.html AND sign.html.
-   
-   3.PRATISTHA:FRONT END OF subject.html,BACKEND FOR Userlogin page, User's subject page.
-   
-
+  **1.AGRIMA:** DESIGNING AND EXECUTING FRONT END OF subject.html, admin_subjects.html, adminsign.html BACKEND for connecting adminsign.html and subject_descriptions.html.
+  
+  **2.SANSKRITI:** DESIGNING AND EXECUTING FRONT END OF home.html,sign.html,loginhello.html, BACKEND for connecting home.html AND sign.html ,Database Hosting.
+  
+  **3.PRATISTHA:** DESIGNING AND EXECUTING FRONT END OF subject_description.html,BACKEND FOR Userlogin page and User's subject page AND user's subject page and user's subject_descriptions page
+  
+  **Integration of Database with website was done collectively by all three of us**
 
 
 **Contribution**:
 
 To contribute to this project, please fork the repository, make your changes, and submit a pull request. For detailed contribution guidelines, refer to CONTRIBUTING.md.
 
-
-
-**License:**
-
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 
 
