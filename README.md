@@ -142,6 +142,8 @@ BEI TOPPER'S CLUB
   4. Session Management: Secure session data with HTTPS and secure cookies.
   5. Database Schema and Migrations: Keep the database schema up-to-date and ensure data integrity. Run migrations as needed.
 
+     
+
  **contribution of each member**:
  
    1.AGRIMA: FRONT END OF subject_description.html, admin_subjects.html,BACKEND for connecting adminsign.html and subject_description.html.
@@ -157,11 +159,15 @@ BEI TOPPER'S CLUB
 
 To contribute to this project, please fork the repository, make your changes, and submit a pull request. For detailed contribution guidelines, refer to CONTRIBUTING.md.
 
-License
+
+
+**License:**
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
+
+
+**Contact:**
 
 For questions or feedback, please contact agrimaregmi2004@gmail.com,pratistha.sapkota123@gmail.com,sanskritikhatiwada002@gmail.com
 
