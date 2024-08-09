@@ -1,4 +1,4 @@
-BEI TOPPER'S CLUB
+**BEI TOPPER'S CLUB**
 
 **Overview:**
   BEI TOPPER'S CLUB is a Flask-based web application designed to manage user accounts and subjects associated with various semesters. The application allows users 
