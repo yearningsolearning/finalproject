@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <style>
+        label{
+            width:110px;
+            display:inline-block;
+            text-align: center;
+
+        }
+        .logo {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            width: 1250px; 
+            height: 250px;
+        }
+        form {
+            display: flex;
+            flex-direction: column; /* This keeps the form elements in a column */
+            align-items: center; /* Center align the items horizontally */
+            text-align: center;
+            line-height: 20px;
+            height: 70%;
+        }
+        .form_container {
+            background-color: rgb(251, 251, 252);
+            margin-left: auto;
+            margin-right: auto;
+            height: 65%;
+            width: 30%;
+            padding: 0px; /* Added padding for better appearance */
+        }
+        button[type="submit"] {
+            background-color: #37739b;
+            color: white;
+            border: #09588d 2px;
+            border-radius: 25px;
+            cursor: pointer;
+            width: 155px; /* Increased width */
+            height: 50px; /* Increased height */
+            font-size: 16px; /* Adjusted font size for better appearance */
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"]{
+            padding: 7px;
+            margin-bottom: 10px;
+            border: 1px solid #b9b9b9;
+            border-radius: 5px;
+            font-size: 15px;
+            width: 170px;
+        }
+        .form-group {
+            display: flex;
+            align-items: center; /* Vertically center align the items */
+            margin-bottom: 10px; /* Space between form groups */
+        }
+        .form-group label {
+            margin-right: 20px; /* Space between label and input */
+        }
+    </style>
+</head>
+<body>
+    <img src="{{ url_for('static', filename='images/Group 5.svg') }}" alt="logo" class="logo" style="width:50%;">
+    <br>
+    <div class="form_container">
+        <form method="POST" action="{{ url_for('sign') }}">
+            <div class="form-group">
+                <label for="username">Username: </label>
+                <input type="text" name="username" required placeholder="Username">
+            </div>
+            <div class="form-group">
+                <label for="email">Email: </label>
+                <input type="email" name="email" required placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password: </label>
+                <input type="password" name="password" required placeholder="Password">
+            </div>
+            <div class="form-group">
+                <label for="semester">Semester Name: </label>
+                <input type="text" name="semester" required placeholder="Semester Name">
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul>
+                {% for message in messages %}
+                    <li>{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+</body>
+</html>

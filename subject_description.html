@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Subject Description</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Subject Description</h1>
+    <table>
+        <tbody>
+            <tr>
+                <th>Average Marks</th>
+                <td>{{ avg_marks }}</td>
+            </tr>
+            <tr>
+                <th>Study Days</th>
+                <td>{{ study_days }}</td>
+            </tr>
+            <tr>
+                <th>Resources</th>
+                <td><a href="{{ resources }}" target="_blank">{{ resources }}</a></td>
+
+            </tr>
+        </tbody>
+    </table>
+    <a href="{{ url_for('user') }}">Back to Subjects</a>
+</body>
+</html>

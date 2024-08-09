@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+            body {
+            background-color: #f5f1f1;
+            }
+        
+            h1 {
+                text-align: center;
+            }
+            h2 {
+                text-align: left;
+                padding-left: 160px;
+                font-size: 24px;
+                font-weight: normal; 
+            }
+            h3
+            {
+                text-align: center;
+
+            }
+        
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            border: 1px solid #090909;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center; 
+            font-size: 22px;
+            background-color: white;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px; 
+            
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border: 1px solid #050505;
+            font-size: 20px;
+        }
+        th {
+            
+            font-weight: bold;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>BEI Topper's Club</h1>
+    <h2>Semester-I</h2>
+
+    <div class="container">
+        <h3>Subjects</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Subject Name</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for subject in subjects %}
+                    <tr>
+                        <td>{{ subject.name }}</td>
+                        <td><a href="{{ url_for('subject_description', subject_id=subject.id) }}">View Description</a></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <a href="{{ url_for('logout') }}">Logout</a>
+    </div>
+</body>
+</html>

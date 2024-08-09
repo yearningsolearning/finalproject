@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Cambo&display=swap" rel="stylesheet">
+    <title>BEI TOPPER'S CLUB</title>
+    <style>
+        img {
+  image-rendering: auto; /* default */
+  image-rendering: crisp-edges; /* pixelated */
+  image-rendering: pixelated; /* pixelated */
+}
+
+        .logo{
+        
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;;
+        width:1400px; 
+        height:330px;
+
+
+        }
+        .cartoon{
+        position: absolute;
+        bottom: 2%;
+        left: 2%;
+        width: 200px;
+        height: 235px
+}
+
+        .transistor{
+            position:absolute;
+            bottom:1%;
+            right: 2%;
+            height: 110px;
+
+       }
+       .home {
+    display: block;
+    height: 1150px;
+    width: 250px;
+    margin-left: 495px;
+    margin-right: 520px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  
+
+}
+.create-account-bttn{
+    background-color: rgba(71, 71, 70, 0.12);
+    color:rgb(0, 0, 0);
+    font-size: 22px;
+    font-family: 'Cambo', serif;
+    height: 72px;
+    width: 335px;
+    border-radius: 10px;
+    border-width: 2px ;
+    cursor:pointer;
+    border-color: rgba(24, 24, 23, 0.137);
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+.admin-bttn {
+    background-color: rgba(71, 71, 70, 0.12);
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-family: 'Cambo', serif;
+    height: 72px;
+    width: 335px;
+    border-radius: 10px;
+    border-width: 2px;
+    cursor: pointer;
+    border-color: rgba(24, 24, 23, 0.137);
+    padding: 10px 20px;
+}
+
+.loginhello{
+    position:absolute;
+    color:black;
+    font-family: 'Cambo',serif;
+    font-size: 22px;
+    bottom: 14%;
+    right: 10% ;
+}
+
+        
+    </style>  
+</head>
+<body>
+    
+    <img src="{{ url_for('static', filename='images/Group 5.svg') }}" alt="logo" class="logo" style="width:50%;">
+
+    <img src="{{ url_for('static', filename='images/Group 1 (1).svg') }}"alt="two men studying"  class="cartoon">
+    <img src="{{url_for('static',filename='images/Group 3 (1).svg')}}"alt="cute transistor" class="transistor">
+    <nav>
+        <section class="home">
+            <form action="{{ url_for('sign') }}" method="GET">
+                <button type="submit" class="create-account-bttn">CREATE NEW ACCOUNT </button>
+            </form>
+            <form action="{{ url_for('adminsign') }}" method="GET">
+                <button type="submit" class="admin-bttn">ADMIN PORTAL</button>
+            </form>
+        </section>
+        <p class="loginhello">Account already exists?
+                <a href="{{ url_for('loginhello') }}"><span>login</span></a>  
+        </p>  
+
+    </nav>
+</body>
+</html>
