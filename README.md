@@ -143,9 +143,13 @@ BEI TOPPER'S CLUB
   5. Database Schema and Migrations: Keep the database schema up-to-date and ensure data integrity. Run migrations as needed.
 
  **contribution of each member**:
+ 
    1.AGRIMA: FRONT END OF subject_description.html, admin_subjects.html,BACKEND for connecting adminsign.html and subject_description.html.
+   
    2.SANSKRITI:FRONT END OF home.html,sign.html,loginhello.html, BACKEND for connecting home.html AND sign.html.
+   
    3.PRATISTHA:FRONT END OF subject.html,BACKEND FOR Userlogin page, User's subject page.
+   
 
 
 
