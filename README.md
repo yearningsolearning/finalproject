@@ -100,15 +100,25 @@ BEI TOPPER'S CLUB
   
 
 **Application Structure**:
+
   main.py: The main application file containing routes and logic.
+  
   templates/: Directory containing HTML templates for rendering web pages.
+  
        home.html: Homepage.
+       
        sign.html: User registration page.
+       
        loginhello.html: User login page.
+       
        subject.html: User's subject page.
+       
        subject_description.html: Page showing details about a subject.
+       
        adminsign.html: Admin login page.
+       
        admin_subjects.html: Admin page for managing subjects.
+       
   
     
 **Admin Portal**
